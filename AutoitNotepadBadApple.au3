@@ -67,6 +67,7 @@ Func Load()
 				If Not $hasFinished[$i] Then ExitLoop
 				If $i = $processCount - 1 Then ExitLoop 2
 			Next
+            Sleep(500)
 		WEnd
 		$processIsActive = False
 		c("Converting finished")
