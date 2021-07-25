@@ -1,4 +1,4 @@
-#include "..\LibDebug.au3"
+#include "Include\LibDebug.au3"
 #include <FileConstants.au3>
 #include <AutoItConstants.au3>
 

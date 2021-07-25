@@ -6,7 +6,7 @@
 #Au3Stripper_Parameters=/pe /sf /sv
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
-#include "..\LibDebug.au3"
+#include "Incldue\LibDebug.au3"
 #include <GDIPlus.au3>
 
 If $CmdLine[0] <> 5 Then
