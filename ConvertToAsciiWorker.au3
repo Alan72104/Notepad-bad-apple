@@ -10,7 +10,8 @@
 #include "Include\LibDebug.au3"
 
 If $CmdLine[0] <> 5 Then
-	Exit MsgBox($MB_SYSTEMMODAL, "Error", "Param amount must be 5!")
+	throw("Loading script", "Param amount must be 5!")
+    Exit
 EndIf
 
 Global $startNum = $CmdLine[1]
